@@ -1,7 +1,7 @@
 // src/components/Portfolio.jsx
 import React, { useState, useEffect } from 'react';
 import { Mail, Linkedin, Github, Twitter } from 'lucide-react';
-import myImage from '../assets/images/1718219627693.jpg';
+import myImage from '../assets/images/Me1.png';
 
 const Portfolio = () => {
   const [isScrolled, setIsScrolled] = useState(false);
