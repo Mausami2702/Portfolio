@@ -6,6 +6,18 @@ Your portfolio consists of these main files:
 
 ### Required Files:
 ```
+
+portfolio/
+├── frontend/               ← Main app (Netlify builds this)
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── Portfolio.jsx  ← ✅ Correct file with Me1.png
+│   │   └── assets/images/
+│   │       └── Me1.png
+│   └── package.json
+├── netlify.toml           ← Points to frontend/
+└── .nvmrc                 ← Node 20
+
 your-portfolio/
 ├── public/
 │   └── index.html
