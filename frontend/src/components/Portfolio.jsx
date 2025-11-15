@@ -16,7 +16,7 @@ const Portfolio = () => {
   const personalInfo = {
     name: 'Mausami Parmar',
     title: 'Product Owner | Project Lead',
-    tagline: 'Similarity is complicated then it seems',
+    tagline: 'A fire in the belly to build what moves the ecosystem forward',
     email: 'mausamiparmarcd@gmail.com',
     // phone: '+91 9722674171',
     location: 'Gujarat, IN',
@@ -24,30 +24,39 @@ const Portfolio = () => {
   };
 
   // About section
-  const about = `I love to design solutions that help the community by creating an environment which reduces the complexity of flows and is easy to adapt. 
-  "Explore" and "research" are my favorite words, as they help me develop new solutions and
-  improvise existing ones with absolute innovation. Change is constant, and that is the only thing that is difficult in this world. 
-  Facing it practically is tough, and that's where Product Owner or PMO roles come into the picture to make the journey smoother for the end user.`;
+  const about = `“Explore” and “research” are two words that constantly drive me. They push me to discover new ideas, improve existing ones, and bring real innovation into what I create.
+
+I’m passionate about building complex "solutions" that truly help communities—solutions that Challenging processes and are easy for anyone to adopt.
+
+I believe change is the only constant, and adapting to it isn’t always easy. That’s exactly where roles like Product Owner or PMO add value—by making the journey smoother, clearer, and more meaningful for the end user.
+`;
 
   // Experience
   const experience = [
     {
-      period: '2022 - Present',
-      company: 'Tech Solutions Inc',
-      role: 'Senior Product Owner',
-      description: 'Leading product development initiatives and managing stakeholder relationships'
-    },
-    {
-      period: '2020 - 2022',
-      company: 'Digital Innovations Co',
+      period: '2024 - Present',
+      company: 'US healthcare - Startup',
       role: 'Product Owner',
-      description: 'Managed product roadmap and coordinated with engineering teams'
+      description: 'Leading product development initiatives to execution, compliance, project management, and product delivery by driving requirement mapping, sprint planning, feature importance analysis, and leveraging agentic AI capabilities, RAG, and LLM use to enhance processes with defined compliance.'
+    },
+
+    {
+      period: '2023 - 2024',
+      company: 'DLVR only services: Peterborough, Ontario',
+      role: 'Project Manager - Business Development',
+      description: 'Led product development initiatives and managing stakeholder relationships to increase the business growth'
     },
     {
-      period: '2018 - 2020',
-      company: 'StartUp Ventures',
-      role: 'PMO Analyst',
-      description: 'Supported project planning and execution for multiple product lines'
+      period: '2018 - 2023',
+      company: 'Softweb Solutions Inc. - An Avnet Company',
+      role: 'Project Lead - Iotconnect Ecosystem',
+      description: 'Led product roadmap and coordinated with engineering teams to build IOT products marketplace with Smart AI Solutions'
+    },
+    {
+      period: '2016 - 2017',
+      company: 'Space O Technologies',
+      role: 'Software Quality Analyst',
+      description: 'Supported project quality testing and execution for multiple product lines such as ERP, CRM, and EDTech'
     }
   ];
 
@@ -69,23 +78,71 @@ const Portfolio = () => {
 
   // Skills
   const skills = [
-    {
-      category: 'Product Management',
-      items: ['Product Strategy', 'Roadmap Planning', 'Stakeholder Management', 'User Stories', 'Agile/Scrum']
-    },
-    {
-      category: 'PMO & Project Management',
-      items: ['Project Planning', 'Risk Management', 'Resource Allocation', 'Budget Management', 'Process Improvement']
-    },
-    {
-      category: 'Tools & Technologies',
-      items: ['JIRA', 'Confluence', 'Figma', 'Microsoft Project', 'Tableau', 'SQL']
-    },
-    {
-      category: 'Soft Skills',
-      items: ['Leadership', 'Communication', 'Problem Solving', 'Critical Thinking', 'Team Collaboration']
-    }
-  ];
+  {
+    category: 'Product Management',
+    items: [
+      'Product Strategy',
+      'Roadmap Planning',
+      'Requirement Mapping',
+      'Feature Prioritization',
+      'User Stories',
+      'Agile/Scrum'
+    ]
+  },
+  {
+    category: 'AI & Intelligent Systems',
+    items: [
+      'Agentic AI Capabilities',
+      'LLM Integration',
+      'RAG (Retrieval-Augmented Generation)',
+      'AI-driven Process Optimization',
+      'Prompt Engineering',
+      'Automation Workflows',
+      'LLM Use with IDE'
+    ]
+  },
+  {
+    category: 'Compliance & Governance',
+    items: [
+      'Process Compliance',
+      'Risk Management',
+      'Governance Alignment',
+      'Regulatory Documentation',
+      'Audit Readiness'
+    ]
+  },
+  {
+    category: 'PMO & Project Management',
+    items: [
+      'Project Planning',
+      'Sprint Planning',
+      'Resource Allocation',
+      'Budget Management',
+      'Process Improvement'
+    ]
+  },
+  {
+    category: 'Tools & Technologies',
+    items: [
+      'JIRA',
+      'Confluence',
+      'Figma',
+      'Microsoft Project',
+      'Tableau',
+      'SQL/Python'
+    ]
+  },
+  {
+    category: 'Soft Skills',
+    items: [
+      'Leadership',
+      'Communication',
+      'Problem Solving',
+      'Critical Thinking',
+      'Team Collaboration'
+    ]
+  }
+];
 
   // Social links
   const socialLinks = [
