@@ -189,9 +189,20 @@ I believe change is the only constant, and adapting to it isn’t always easy. T
 
       {/* About Section */}
       <section id="about" className="content-section">
-        <div className="section-container">
-          <h2 className="section-title">About</h2>
-          <p className="section-text">{about}</p>
+        <div className="section-container-wide">
+          <div className="about-layout">
+            <div className="about-image-wrapper">
+              <img
+                src={personalInfo.image}
+                alt={`${personalInfo.name} portrait`}
+                className="about-image"
+              />
+            </div>
+            <div className="about-content">
+              <h2 className="section-title">About</h2>
+              <p className="section-text">{about}</p>
+            </div>
+          </div>
         </div>
       </section>
 
