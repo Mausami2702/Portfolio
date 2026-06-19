@@ -1,289 +1,484 @@
-!doctype html>
+<!doctype html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-        <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)" />
-        <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)" />
-        <meta name="color-scheme" content="dark light" />
-        <meta name="description" content="Mausami Parmar — Product Owner & Project Lead specializing in AI-driven solutions, regulatory compliance, and end-to-end product development." />
-        <meta name="author" content="Mausami Parmar" />
-        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <meta name="googlebot" content="index, follow" />
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="description" content="Mausami Parmar — Product Owner & Project Lead specializing in AI-driven solutions, regulatory compliance, and end-to-end product development." />
+    <meta name="author" content="Mausami Parmar" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 
-        <!-- Security Meta Tags -->
-        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-        <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains" />
-        <meta http-equiv="X-Content-Type-Options" content="nosniff" />
-        <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains" />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
 
-        <!-- Canonical -->
-        <link rel="canonical" href="https://mausamp.space/" />
-        <link rel="alternate" hreflang="en" href="https://mausamp.space/" />
-        <link rel="alternate" hreflang="x-default" href="https://mausamp.space/" />
+    <link rel="canonical" href="https://mausamp.space/" />
+    <link rel="alternate" hreflang="en" href="https://mausamp.space/" />
+    <link rel="alternate" hreflang="x-default" href="https://mausamp.space/" />
 
-        <!-- Open Graph / Facebook -->
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://mausamp.space/" />
-        <meta property="og:title" content="Mausami Parmar — Product Owner & Project Lead" />
-        <meta property="og:description" content="Specializing in AI-driven solutions, regulatory compliance, and end-to-end product development." />
-        <meta property="og:image" content="https://mausamp.space/og-image.png" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content="Mausami Parmar — Product Owner Portfolio" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:site_name" content="Mausami Parmar" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mausamp.space/" />
+    <meta property="og:title" content="Mausami Parmar — Product Owner & Project Lead" />
+    <meta property="og:description" content="Specializing in AI-driven solutions, regulatory compliance, and end-to-end product development." />
+    <meta property="og:image" content="https://mausamp.space/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Mausami Parmar" />
 
-        <!-- Twitter Card -->
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="https://mausamp.space/" />
-        <meta name="twitter:title" content="Mausami Parmar — Product Owner & Project Lead" />
-        <meta name="twitter:description" content="Specializing in AI-driven solutions, regulatory compliance, and end-to-end product development." />
-        <meta name="twitter:image" content="https://mausamp.space/og-image.png" />
-        <meta name="twitter:image:alt" content="Mausami Parmar — Product Owner Portfolio" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://mausamp.space/" />
+    <meta name="twitter:title" content="Mausami Parmar — Product Owner & Project Lead" />
+    <meta name="twitter:description" content="Specializing in AI-driven solutions, regulatory compliance, and end-to-end product development." />
+    <meta name="twitter:image" content="https://mausamp.space/og-image.png" />
 
-        <!-- Favicon & Icons -->
-        <link rel="icon" type="image/svg+xml" href="%PUBLIC_URL%/favicon.svg" />
-        <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png" />
-        <link rel="mask-icon" href="%PUBLIC_URL%/safari-pinned-tab.svg" color="#0a0a0a" />
-        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>MP</text></svg>" />
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%230a0a0a' width='100' height='100' rx='20'/><text x='50' y='68' text-anchor='middle' fill='white' font-size='45' font-family='sans-serif' font-weight='600'>MP</text></svg>" />
 
-        <!-- Preconnect & DNS Prefetch for Performance -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link rel="dns-prefetch" href="https://us.i.posthog.com" />
-        <link rel="dns-prefetch" href="https://assets.emergent.sh" />
-        <link rel="dns-prefetch" href="https://unpkg.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
 
-        <!-- Preload Critical Font -->
-        <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
 
-        <title>Mausami Parmar — Product Owner & Project Lead</title>
-
-        <!-- Inline Critical CSS to prevent FOUC -->
-        <style>
-            *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-            html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
-            body {
-                font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-                -webkit-font-smoothing: antialiased;
-                -moz-osx-font-smoothing: grayscale;
-                text-rendering: optimizeLegibility;
-                background-color: #0a0a0a;
-                color: #ffffff;
-                overflow-x: hidden;
-                opacity: 0;
-                transition: opacity 0.3s ease-in;
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        dark: { 900: '#0a0a0a', 800: '#111111', 700: '#1a1a1a', 600: '#242424', 500: '#2e2e2e' },
+                    }
+                }
             }
-            body.loaded { opacity: 1; }
-            #root { min-height: 100dvh; }
-            @media (prefers-reduced-motion: reduce) {
-                *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
-            }
-            @media (prefers-color-scheme: light) {
-                body { background-color: #fafafa; color: #0a0a0a; }
-            }
-        </style>
-
-        <!-- JSON-LD Structured Data -->
-        <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Person",
-            "name": "Mausami Parmar",
-            "url": "https://mausamp.space",
-            "jobTitle": "Product Owner & Project Lead",
-            "description": "Product Owner & Project Lead specializing in AI-driven solutions, regulatory compliance, and end-to-end product development.",
-            "sameAs": [],
-            "knowsAbout": [
-                "Product Management",
-                "Artificial Intelligence",
-                "Regulatory Compliance",
-                "Project Management",
-                "Agile Methodologies",
-                "Product Development"
-            ]
         }
-        </script>
+    </script>
 
-        <!-- Emergent Main Script -->
-        <script src="https://assets.emergent.sh/scripts/emergent-main.js"></script>
+    <title>Mausami Parmar — Product Owner & Project Lead</title>
 
-        <!--
-        These two scripts have been added for the testing, please do not edit or remove them
-        -->
-        <script src="https://unpkg.com/rrweb@latest/dist/rrweb.min.js"></script>
-        <script src="https://d2adkz2s9zrlge.cloudfront.net/rrweb-recorder-20250919-1.js"></script>
-
-        <!--
-        These two scripts have been added for the Visual Edits, please do not edit or remove them
-        -->
-        <script>
-            // Only load visual edit scripts when inside an iframe and visual edits are enabled
-            if (window.self !== window.top && '%REACT_APP_ENABLE_VISUAL_EDITS%' === 'true') {
-                // Load debug monitor script
-                var debugScript = document.createElement('script');
-                debugScript.src = 'https://assets.emergent.sh/scripts/debug-monitor.js';
-                document.head.appendChild(debugScript);
-
-                // Configure Tailwind
-                window.tailwind = window.tailwind || {};
-                tailwind.config = {
-                    corePlugins: { preflight: false },
-                };
-
-                // Load Tailwind CDN
-                var tailwindScript = document.createElement('script');
-                tailwindScript.src = 'https://cdn.tailwindcss.com';
-                document.head.appendChild(tailwindScript);
+    <style>
+        *, *::before, *::after { box-sizing: border-box; }
+        html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+        body {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideInLeft {
+            from { opacity: 0; transform: translateX(-30px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        .animate-fade-in-up { animation: fadeInUp 0.8s ease-out forwards; }
+        .animate-fade-in { animation: fadeIn 0.6s ease-out forwards; }
+        .animate-slide-in-left { animation: slideInLeft 0.8s ease-out forwards; }
+        .animate-float { animation: float 6s ease-in-out infinite; }
+        .delay-100 { animation-delay: 0.1s; }
+        .delay-200 { animation-delay: 0.2s; }
+        .delay-300 { animation-delay: 0.3s; }
+        .delay-400 { animation-delay: 0.4s; }
+        .delay-500 { animation-delay: 0.5s; }
+        .delay-600 { animation-delay: 0.6s; }
+        .opacity-0-init { opacity: 0; }
+        .gradient-text {
+            background: linear-gradient(135deg, #ffffff 0%, #a3a3a3 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .card-hover {
+            transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            border-color: rgba(255,255,255,0.15);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+        .icon-hover {
+            transition: all 0.3s ease;
+        }
+        .icon-hover:hover {
+            color: #ffffff !important;
+            transform: translateY(-2px);
+        }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #0a0a0a; }
+        ::-webkit-scrollbar-thumb { background: #2e2e2e; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: #404040; }
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
             }
-        </script>
-    </head>
-    <body>
-        <noscript>
-            <div style="display:flex;align-items:center;justify-content:center;min-height:100dvh;padding:2rem;font-family:Inter,sans-serif;background:#0a0a0a;color:#fff;text-align:center;">
-                <div>
-                    <h1 style="font-size:1.5rem;font-weight:600;margin-bottom:1rem;">JavaScript Required</h1>
-                    <p style="color:#a3a3a3;max-width:400px;line-height:1.6;">Please enable JavaScript in your browser settings to view this portfolio.</p>
+        }
+    </style>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Mausami Parmar",
+        "url": "https://mausamp.space",
+        "jobTitle": "Product Owner & Project Lead",
+        "description": "Product Owner & Project Lead specializing in AI-driven solutions, regulatory compliance, and end-to-end product development.",
+        "email": "mausamiparmarcd@gmail.com",
+        "knowsAbout": ["Product Management", "Artificial Intelligence", "Regulatory Compliance", "Project Management", "Agile Methodologies", "Product Development"]
+    }
+    </script>
+</head>
+<body class="bg-dark-900 text-white font-sans">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-dark-900/80 backdrop-blur-xl border-b border-white/5">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="text-lg font-semibold tracking-tight">Mausami<span class="text-neutral-500">.</span></a>
+            <div class="hidden md:flex items-center gap-8">
+                <a href="#about" class="text-sm text-neutral-400 hover:text-white transition-colors duration-150">About</a>
+                <a href="#expertise" class="text-sm text-neutral-400 hover:text-white transition-colors duration-150">Expertise</a>
+                <a href="#work" class="text-sm text-neutral-400 hover:text-white transition-colors duration-150">Work</a>
+                <a href="#contact" class="text-sm font-medium bg-white text-black px-5 py-2 rounded-full hover:scale-105 transition-transform duration-200">Contact</a>
+            </div>
+            <button id="mobile-menu-btn" class="md:hidden text-neutral-400 hover:text-white transition-colors" aria-label="Toggle menu">
+                <span class="iconify" data-icon="lucide:menu" data-width="24"></span>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden border-t border-white/5 bg-dark-900/95 backdrop-blur-xl">
+            <div class="px-6 py-4 flex flex-col gap-3">
+                <a href="#about" class="text-sm text-neutral-400 hover:text-white transition-colors py-2">About</a>
+                <a href="#expertise" class="text-sm text-neutral-400 hover:text-white transition-colors py-2">Expertise</a>
+                <a href="#work" class="text-sm text-neutral-400 hover:text-white transition-colors py-2">Work</a>
+                <a href="#contact" class="text-sm font-medium bg-white text-black px-5 py-2.5 rounded-full text-center hover:scale-105 transition-transform duration-200 mt-1">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center relative overflow-hidden">
+        <!-- Background effects -->
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(49,46,129,0.15),transparent_60%)]"></div>
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(6,78,59,0.1),transparent_60%)]"></div>
+        <div class="absolute top-32 right-16 w-72 h-72 bg-indigo-500/5 rounded-full blur-3xl animate-float"></div>
+        <div class="absolute bottom-32 left-16 w-56 h-56 bg-emerald-500/5 rounded-full blur-3xl animate-float" style="animation-delay: 3s;"></div>
+
+        <div class="max-w-6xl mx-auto px-6 pt-32 pb-20 w-full relative z-10">
+            <div class="max-w-3xl">
+                <div class="opacity-0-init animate-fade-in-up">
+                    <span class="inline-flex items-center gap-2 text-xs font-medium uppercase tracking-widest text-neutral-500 mb-6">
+                        <span class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></span>
+                        Available for opportunities
+                    </span>
+                </div>
+
+                <h1 class="text-5xl md:text-7xl lg:text-8xl font-semibold leading-[1.05] tracking-tight mb-8 opacity-0-init animate-fade-in-up delay-100">
+                    <span class="gradient-text">Product Owner</span><br/>
+                    <span class="text-neutral-400">&amp; Project Lead</span>
+                </h1>
+
+                <p class="text-lg md:text-xl text-neutral-400 leading-relaxed max-w-xl mb-10 opacity-0-init animate-fade-in-up delay-200">
+                    I bridge the gap between vision and execution — turning complex AI-driven ideas into compliant, scalable products that deliver real impact.
+                </p>
+
+                <div class="flex flex-wrap gap-4 opacity-0-init animate-fade-in-up delay-300">
+                    <a href="#contact" class="inline-flex items-center gap-2 bg-white text-black font-medium text-sm px-7 py-3.5 rounded-full hover:scale-105 transition-transform duration-200">
+                        Get in touch
+                        <span class="iconify" data-icon="lucide:arrow-right" data-width="16"></span>
+                    </a>
+                    <a href="#work" class="inline-flex items-center gap-2 bg-white/5 border border-white/10 text-white font-medium text-sm px-7 py-3.5 rounded-full hover:border-white/20 hover:scale-105 transition-all duration-200">
+                        View my work
+                    </a>
+                </div>
+
+                <div class="flex items-center gap-8 mt-16 opacity-0-init animate-fade-in-up delay-400">
+                    <div>
+                        <div class="text-3xl font-semibold">5+</div>
+                        <div class="text-xs text-neutral-500 uppercase tracking-wider mt-1">Years Experience</div>
+                    </div>
+                    <div class="w-px h-10 bg-white/10"></div>
+                    <div>
+                        <div class="text-3xl font-semibold">20+</div>
+                        <div class="text-xs text-neutral-500 uppercase tracking-wider mt-1">Projects Delivered</div>
+                    </div>
+                    <div class="w-px h-10 bg-white/10"></div>
+                    <div>
+                        <div class="text-3xl font-semibold">AI</div>
+                        <div class="text-xs text-neutral-500 uppercase tracking-wider mt-1">Specialization</div>
+                    </div>
                 </div>
             </div>
-        </noscript>
-        <div id="root"></div>
+        </div>
 
-        <!-- Emergent Badge -->
-        <a
-            id="emergent-badge"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://app.emergent.sh/?utm_source=emergent-badge"
-            style="
-                display: flex !important;
-                align-items: center !important;
-                position: fixed !important;
-                bottom: 20px;
-                right: 20px;
-                text-decoration: none;
-                padding: 6px 10px;
-                font-family: -apple-system, BlinkMacSystemFont,
-                    &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell,
-                    &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;,
-                    sans-serif !important;
-                font-size: 12px !important;
-                z-index: 9999 !important;
-                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
-                border-radius: 8px !important;
-                background-color: #ffffff !important;
-                border: 1px solid rgba(255, 255, 255, 0.25) !important;
-            "
-            aria-label="Made with Emergent — click to visit Emergent"
-        >
-            <div style="display: flex; flex-direction: row; align-items: center">
-                <img
-                    style="width: 20px; height: 20px; margin-right: 8px"
-                    src="https://avatars.githubusercontent.com/in/1201222?s=120&u=2686cf91179bbafbc7a71bfbc43004cf9ae1acea&v=4"
-                    alt=""
-                    width="20"
-                    height="20"
-                    loading="lazy"
-                />
-                <p
-                    style="
-                        color: #000000;
-                        font-family: -apple-system, BlinkMacSystemFont,
-                            &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu,
-                            Cantarell, &quot;Open Sans&quot;,
-                            &quot;Helvetica Neue&quot;, sans-serif !important;
-                        font-size: 12px !important;
-                        align-items: center;
-                        margin-bottom: 0;
-                    "
-                >
-                    Made with Emergent
-                </p>
+        <!-- Scroll indicator -->
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-0-init animate-fade-in delay-600">
+            <span class="text-[10px] uppercase tracking-widest text-neutral-600">Scroll</span>
+            <div class="w-px h-8 bg-gradient-to-b from-neutral-600 to-transparent"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 md:py-32 relative">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <span class="text-xs font-medium uppercase tracking-widest text-indigo-400 mb-4 block">About</span>
+                    <h2 class="text-3xl md:text-4xl font-semibold tracking-tight mb-6">Turning complexity into clarity</h2>
+                    <div class="space-y-4 text-neutral-400 leading-relaxed">
+                        <p>I'm Mausami Parmar, a Product Owner and Project Lead with a deep focus on AI-driven product development. My work sits at the intersection of technology, compliance, and user experience.</p>
+                        <p>I've led cross-functional teams through the full product lifecycle — from discovery and requirements gathering to sprint planning, delivery, and post-launch optimization.</p>
+                        <p>What drives me is building products that aren't just technically sound, but genuinely useful, compliant, and ready for scale.</p>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="bg-dark-700 rounded-2xl border border-white/5 p-8 space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-indigo-500/10 flex items-center justify-center flex-shrink-0">
+                                <span class="iconify text-indigo-400" data-icon="lucide:brain" data-width="20"></span>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-sm mb-1">AI-First Thinking</h4>
+                                <p class="text-sm text-neutral-500 leading-relaxed">Integrating AI capabilities into product strategy from day one, not as an afterthought.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-emerald-500/10 flex items-center justify-center flex-shrink-0">
+                                <span class="iconify text-emerald-400" data-icon="lucide:shield-check" data-width="20"></span>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-sm mb-1">Compliance by Design</h4>
+                                <p class="text-sm text-neutral-500 leading-relaxed">Building regulatory requirements into the product DNA, not bolting them on later.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-purple-500/10 flex items-center justify-center flex-shrink-0">
+                                <span class="iconify text-purple-400" data-icon="lucide:users" data-width="20"></span>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-sm mb-1">Cross-Functional Leadership</h4>
+                                <p class="text-sm text-neutral-500 leading-relaxed">Aligning engineering, design, business, and stakeholders around a shared vision.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </a>
+        </div>
+    </section>
 
-        <!-- FOUC Prevention: reveal body once React hydrates -->
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                document.body.classList.add('loaded');
+    <!-- Expertise Section -->
+    <section id="expertise" class="py-24 md:py-32 bg-dark-800/50">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <span class="text-xs font-medium uppercase tracking-widest text-indigo-400 mb-4 block">Expertise</span>
+                <h2 class="text-3xl md:text-4xl font-semibold tracking-tight">What I bring to the table</h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <div class="card-hover bg-dark-700 rounded-2xl border border-white/5 p-7">
+                    <div class="w-12 h-12 rounded-xl bg-indigo-500/10 flex items-center justify-center mb-5">
+                        <span class="iconify text-indigo-400" data-icon="lucide:layout-dashboard" data-width="24"></span>
+                    </div>
+                    <h3 class="text-lg font-semibold tracking-tight mb-2">Product Strategy</h3>
+                    <p class="text-sm text-neutral-500 leading-relaxed">Defining product vision, roadmaps, and prioritization frameworks that align business goals with user needs.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card-hover bg-dark-700 rounded-2xl border border-white/5 p-7">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-500/10 flex items-center justify-center mb-5">
+                        <span class="iconify text-emerald-400" data-icon="lucide:brain-circuit" data-width="24"></span>
+                    </div>
+                    <h3 class="text-lg font-semibold tracking-tight mb-2">AI Product Development</h3>
+                    <p class="text-sm text-neutral-500 leading-relaxed">End-to-end ownership of AI-powered products — from concept validation through ML integration to production deployment.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card-hover bg-dark-700 rounded-2xl border border-white/5 p-7">
+                    <div class="w-12 h-12 rounded-xl bg-purple-500/10 flex items-center justify-center mb-5">
+                        <span class="iconify text-purple-400" data-icon="lucide:file-check" data-width="24"></span>
+                    </div>
+                    <h3 class="text-lg font-semibold tracking-tight mb-2">Regulatory Compliance</h3>
+                    <p class="text-sm text-neutral-500 leading-relaxed">Navigating complex regulatory landscapes — GDPR, HIPAA, industry-specific standards — without slowing delivery.</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="card-hover bg-dark-700 rounded-2xl border border-white/5 p-7">
+                    <div class="w-12 h-12 rounded-xl bg-rose-500/10 flex items-center justify-center mb-5">
+                        <span class="iconify text-rose-400" data-icon="lucide:kanban" data-width="24"></span>
+                    </div>
+                    <h3 class="text-lg font-semibold tracking-tight mb-2">Agile Delivery</h3>
+                    <p class="text-sm text-neutral-500 leading-relaxed">Scrum, Kanban, or hybrid — I adapt the methodology to the team and product, not the other way around.</p>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="card-hover bg-dark-700 rounded-2xl border border-white/5 p-7">
+                    <div class="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center mb-5">
+                        <span class="iconify text-amber-400" data-icon="lucide:bar-chart-3" data-width="24"></span>
+                    </div>
+                    <h3 class="text-lg font-semibold tracking-tight mb-2">Data-Driven Decisions</h3>
+                    <p class="text-sm text-neutral-500 leading-relaxed">Leveraging analytics, user research, and metrics to inform prioritization and measure product success.</p>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="card-hover bg-dark-700 rounded-2xl border border-white/5 p-7">
+                    <div class="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center mb-5">
+                        <span class="iconify text-cyan-400" data-icon="lucide:git-branch" data-width="24"></span>
+                    </div>
+                    <h3 class="text-lg font-semibold tracking-tight mb-2">Technical Bridge</h3>
+                    <p class="text-sm text-neutral-500 leading-relaxed">Speaking both languages — translating business requirements into technical specs and technical constraints into product trade-offs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work / Experience Section -->
+    <section id="work" class="py-24 md:py-32">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <span class="text-xs font-medium uppercase tracking-widest text-indigo-400 mb-4 block">Experience</span>
+                <h2 class="text-3xl md:text-4xl font-semibold tracking-tight">Where I've made an impact</h2>
+            </div>
+
+            <div class="max-w-3xl mx-auto space-y-0">
+                <!-- Experience Item 1 -->
+                <div class="relative pl-8 pb-12 border-l border-white/10 last:pb-0">
+                    <div class="absolute left-0 top-0 w-3 h-3 bg-indigo-500 rounded-full -translate-x-[7px] ring-4 ring-dark-900"></div>
+                    <div class="card-hover bg-dark-700 rounded-2xl border border-white/5 p-7">
+                        <div class="flex flex-wrap items-center gap-3 mb-3">
+                            <span class="text-xs font-medium px-3 py-1 rounded-full bg-indigo-500/10 text-indigo-400">Current</span>
+                            <span class="text-xs text-neutral-600">2023 — Present</span>
+                        </div>
+                        <h3 class="text-lg font-semibold tracking-tight mb-1">Product Owner</h3>
+                        <p class="text-sm text-neutral-500 mb-3">AI & Compliance Solutions</p>
+                        <p class="text-sm text-neutral-400 leading-relaxed">Leading product strategy for AI-driven compliance platform. Managing a cross-functional team of 12, delivering features that reduced compliance processing time by 60%.</p>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="relative pl-8 pb-12 border-l border-white/10">
+                    <div class="absolute left-0 top-0 w-3 h-3 bg-emerald-500 rounded-full -translate-x-[7px] ring-4 ring-dark-900"></div>
+                    <div class="card-hover bg-dark-700 rounded-2xl border border-white/5 p-7">
+                        <div class="flex flex-wrap items-center gap-3 mb-3">
+                            <span class="text-xs text-neutral-600">2021 — 2023</span>
+                        </div>
+                        <h3 class="text-lg font-semibold tracking-tight mb-1">Project Lead</h3>
+                        <p class="text-sm text-neutral-500 mb-3">Enterprise SaaS</p>
+                        <p class="text-sm text-neutral-400 leading-relaxed">Managed end-to-end delivery of enterprise SaaS products serving 50K+ users. Implemented agile practices that improved sprint velocity by 40%.</p>
+                    </div>
+                </div>
+
+                <!-- Experience Item 3 -->
+                <div class="relative pl-8 pb-0 border-l border-white/10">
+                    <div class="absolute left-0 top-0 w-3 h-3 bg-purple-500 rounded-full -translate-x-[7px] ring-4 ring-dark-900"></div>
+                    <div class="card-hover bg-dark-700 rounded-2xl border border-white/5 p-7">
+                        <div class="flex flex-wrap items-center gap-3 mb-3">
+                            <span class="text-xs text-neutral-600">2019 — 2021</span>
+                        </div>
+                        <h3 class="text-lg font-semibold tracking-tight mb-1">Business Analyst / Jr. Product Owner</h3>
+                        <p class="text-sm text-neutral-500 mb-3">Fintech Startup</p>
+                        <p class="text-sm text-neutral-400 leading-relaxed">Started my product journey gathering requirements, writing user stories, and bridging the gap between stakeholders and development teams in a fast-paced fintech environment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 md:py-32 bg-dark-800/50 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(49,46,129,0.1),transparent_70%)]"></div>
+        <div class="max-w-6xl mx-auto px-6 relative z-10 text-center">
+            <span class="text-xs font-medium uppercase tracking-widest text-indigo-400 mb-4 block">Contact</span>
+            <h2 class="text-4xl md:text-6xl font-semibold tracking-tight mb-6">Let's work together</h2>
+            <p class="text-lg text-neutral-400 max-w-lg mx-auto mb-10 leading-relaxed">I'm always open to discussing product opportunities, AI projects, or just connecting with fellow product people.</p>
+            <a href="mailto:mausamiparmarcd@gmail.com" class="inline-flex items-center gap-3 bg-white text-black font-medium text-base px-8 py-4 rounded-full hover:scale-105 transition-transform duration-200">
+                <span class="iconify" data-icon="lucide:mail" data-width="20"></span>
+                mausamiparmarcd@gmail.com
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/5">
+        <div class="max-w-6xl mx-auto px-6 py-12">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <div class="flex flex-col items-center md:items-start gap-2">
+                    <span class="text-sm font-medium tracking-tight">Mausami Parmar</span>
+                    <span class="text-xs text-neutral-600">© 2025 All rights reserved</span>
+                </div>
+
+                <div class="flex items-center gap-5">
+                    <a href="https://linkedin.com/in/mausamiparmar" target="_blank" rel="noopener noreferrer" class="icon-hover text-neutral-500" aria-label="LinkedIn">
+                        <span class="iconify" data-icon="lucide:linkedin" data-width="18"></span>
+                    </a>
+                    <a href="https://github.com/mausamiparmar" target="_blank" rel="noopener noreferrer" class="icon-hover text-neutral-500" aria-label="GitHub">
+                        <span class="iconify" data-icon="lucide:github" data-width="18"></span>
+                    </a>
+                    <a href="https://x.com/mausamiparmar" target="_blank" rel="noopener noreferrer" class="icon-hover text-neutral-500" aria-label="X / Twitter">
+                        <span class="iconify" data-icon="lucide:twitter" data-width="18"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Toggle -->
+    <script>
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', function () {
+            mobileMenu.classList.toggle('hidden');
+        });
+        mobileMenu.querySelectorAll('a').forEach(function (link) {
+            link.addEventListener('click', function () {
+                mobileMenu.classList.add('hidden');
             });
-            // Fallback in case DOMContentLoaded already fired
-            if (document.readyState !== 'loading') {
-                document.body.classList.add('loaded');
+        });
+
+        // Scroll-based nav background
+        window.addEventListener('scroll', function () {
+            var nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.style.borderBottomColor = 'rgba(255,255,255,0.08)';
+            } else {
+                nav.style.borderBottomColor = 'rgba(255,255,255,0.03)';
             }
-        </script>
+        });
 
-        <!-- PostHog Analytics -->
-        <script>
-            !(function (t, e) {
-                var o, n, p, r;
-                e.__SV ||
-                    ((window.posthog = e),
-                    (e._i = []),
-                    (e.init = function (i, s, a) {
-                        function g(t, e) {
-                            var o = e.split(".");
-                            2 == o.length && ((t = t[o[0]]), (e = o[1])),
-                                (t[e] = function () {
-                                    t.push(
-                                        [e].concat(
-                                            Array.prototype.slice.call(
-                                                arguments,
-                                                0,
-                                            ),
-                                        ),
-                                    );
-                                });
-                        }
-                        ((p = t.createElement("script")).type =
-                            "text/javascript"),
-                            (p.crossOrigin = "anonymous"),
-                            (p.async = !0),
-                            (p.src =
-                                s.api_host.replace(
-                                    ".i.posthog.com",
-                                    "-assets.i.posthog.com",
-                                ) + "/static/array.js"),
-                            (r =
-                                t.getElementsByTagName(
-                                    "script",
-                                )[0]).parentNode.insertBefore(p, r);
-                        var u = e;
-                        for (
-                            void 0 !== a ? (u = e[a] = []) : (a = "posthog"),
-                                u.people = u.people || [],
-                                u.toString = function (t) {
-                                    var e = "posthog";
-                                    return (
-                                        "posthog" !== a && (e += "." + a),
-                                        t || (e += " (stub)"),
-                                        e
-                                    );
-                                },
-                                u.people.toString = function () {
-                                    return u.toString(1) + ".people (stub)";
-                                },
-                                o =
-                                    "init me ws ys ps bs capture je Di ks register register_once register_for_session unregister unregister_for_session Ps getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey canRenderSurveyAsync identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty Es $s createPersonProfile Is opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing Ss debug xs getPageViewId captureTraceFeedback captureTraceMetric".split(
-                                        " ",
-                                    ),
-                                n = 0;
-                            n < o.length;
-                            n++
-                        )
-                            g(u, o[n]);
-                        e._i.push([i, s, a]);
-                    }),
-                    (e.__SV = 1));
-            })(document, window.posthog || []);
-            posthog.init("phc_yJW1VjHGGwmCbbrtczfqqNxgBDbhlhOWcdzcIJEOTFE", {
-                api_host: "https://us.i.posthog.com",
-                person_profiles: "identified_only",
+        // Intersection Observer for scroll animations
+        var observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+        var observer = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                    observer.unobserve(entry.target);
+                }
             });
-        </script>
-    </body>
+        }, observerOptions);
+
+        document.querySelectorAll('#about, #expertise, #work, #contact').forEach(function (section) {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(30px)';
+            section.style.transition = 'opacity 0.8s ease-out, transform 0.8s ease-out';
+            observer.observe(section);
+        });
+    </script>
+
+</body>
 </html>
