@@ -2,9 +2,16 @@
 import React, { useState, useEffect } from 'react';
 import { Mail, Linkedin, Github, Twitter } from 'lucide-react';
 import myImage from '../assets/images/Me1.png';
+import fallbackImage from '../assets/images/Me.png';
 
 const Portfolio = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+
+  const handleImageError = (event) => {
+    if (event.currentTarget.src !== fallbackImage) {
+      event.currentTarget.src = fallbackImage;
+    }
+  };
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 0);
@@ -177,6 +184,7 @@ I believe change is the only constant, and adapting to it isn’t always easy. T
               src={personalInfo.image}
               alt={`Professional photo of ${personalInfo.name}`}
               className="hero-image"
+              onError={handleImageError}
             />
           </div>
           <div className="hero-text">
@@ -196,6 +204,7 @@ I believe change is the only constant, and adapting to it isn’t always easy. T
                 src={personalInfo.image}
                 alt={`${personalInfo.name} portrait`}
                 className="about-image"
+                onError={handleImageError}
               />
             </div>
             <div className="about-content">
