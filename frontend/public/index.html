@@ -1,35 +1,123 @@
-<!doctype html>
-<html lang="en">
+!doctype html>
+<html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#000000" />
-        <meta name="description" content="Mausami Parmar - Product Owner & Project Lead specializing in AI-driven solutions, compliance, and product development" />
-        
-        <!-- Security Meta Tags -->
-        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-        <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains">
-        <link rel="canonical" href="https://mausamp.space" />
-        <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-        <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)" />
+        <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)" />
+        <meta name="color-scheme" content="dark light" />
+        <meta name="description" content="Mausami Parmar — Product Owner & Project Lead specializing in AI-driven solutions, regulatory compliance, and end-to-end product development." />
+        <meta name="author" content="Mausami Parmar" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-        <title>Mausami Product Owner</title>
+        <!-- Security Meta Tags -->
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+        <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains" />
+        <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+        <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+
+        <!-- Canonical -->
+        <link rel="canonical" href="https://mausamp.space/" />
+        <link rel="alternate" hreflang="en" href="https://mausamp.space/" />
+        <link rel="alternate" hreflang="x-default" href="https://mausamp.space/" />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://mausamp.space/" />
+        <meta property="og:title" content="Mausami Parmar — Product Owner & Project Lead" />
+        <meta property="og:description" content="Specializing in AI-driven solutions, regulatory compliance, and end-to-end product development." />
+        <meta property="og:image" content="https://mausamp.space/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Mausami Parmar — Product Owner Portfolio" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:site_name" content="Mausami Parmar" />
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://mausamp.space/" />
+        <meta name="twitter:title" content="Mausami Parmar — Product Owner & Project Lead" />
+        <meta name="twitter:description" content="Specializing in AI-driven solutions, regulatory compliance, and end-to-end product development." />
+        <meta name="twitter:image" content="https://mausamp.space/og-image.png" />
+        <meta name="twitter:image:alt" content="Mausami Parmar — Product Owner Portfolio" />
+
+        <!-- Favicon & Icons -->
+        <link rel="icon" type="image/svg+xml" href="%PUBLIC_URL%/favicon.svg" />
+        <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png" />
+        <link rel="mask-icon" href="%PUBLIC_URL%/safari-pinned-tab.svg" color="#0a0a0a" />
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+        <!-- Preconnect & DNS Prefetch for Performance -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="dns-prefetch" href="https://us.i.posthog.com" />
+        <link rel="dns-prefetch" href="https://assets.emergent.sh" />
+        <link rel="dns-prefetch" href="https://unpkg.com" />
+
+        <!-- Preload Critical Font -->
+        <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+
+        <title>Mausami Parmar — Product Owner & Project Lead</title>
+
+        <!-- Inline Critical CSS to prevent FOUC -->
+        <style>
+            *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+            html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+            body {
+                font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                text-rendering: optimizeLegibility;
+                background-color: #0a0a0a;
+                color: #ffffff;
+                overflow-x: hidden;
+                opacity: 0;
+                transition: opacity 0.3s ease-in;
+            }
+            body.loaded { opacity: 1; }
+            #root { min-height: 100dvh; }
+            @media (prefers-reduced-motion: reduce) {
+                *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+            }
+            @media (prefers-color-scheme: light) {
+                body { background-color: #fafafa; color: #0a0a0a; }
+            }
+        </style>
+
+        <!-- JSON-LD Structured Data -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Mausami Parmar",
+            "url": "https://mausamp.space",
+            "jobTitle": "Product Owner & Project Lead",
+            "description": "Product Owner & Project Lead specializing in AI-driven solutions, regulatory compliance, and end-to-end product development.",
+            "sameAs": [],
+            "knowsAbout": [
+                "Product Management",
+                "Artificial Intelligence",
+                "Regulatory Compliance",
+                "Project Management",
+                "Agile Methodologies",
+                "Product Development"
+            ]
+        }
+        </script>
+
+        <!-- Emergent Main Script -->
         <script src="https://assets.emergent.sh/scripts/emergent-main.js"></script>
+
         <!--
         These two scripts have been added for the testing, please do not edit or remove them
         -->
         <script src="https://unpkg.com/rrweb@latest/dist/rrweb.min.js"></script>
         <script src="https://d2adkz2s9zrlge.cloudfront.net/rrweb-recorder-20250919-1.js"></script>
+
         <!--
         These two scripts have been added for the Visual Edits, please do not edit or remove them
         -->
@@ -55,21 +143,21 @@
         </script>
     </head>
     <body>
-        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <noscript>
+            <div style="display:flex;align-items:center;justify-content:center;min-height:100dvh;padding:2rem;font-family:Inter,sans-serif;background:#0a0a0a;color:#fff;text-align:center;">
+                <div>
+                    <h1 style="font-size:1.5rem;font-weight:600;margin-bottom:1rem;">JavaScript Required</h1>
+                    <p style="color:#a3a3a3;max-width:400px;line-height:1.6;">Please enable JavaScript in your browser settings to view this portfolio.</p>
+                </div>
+            </div>
+        </noscript>
         <div id="root"></div>
-        <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+        <!-- Emergent Badge -->
         <a
             id="emergent-badge"
             target="_blank"
+            rel="noopener noreferrer"
             href="https://app.emergent.sh/?utm_source=emergent-badge"
             style="
                 display: flex !important;
@@ -90,13 +178,16 @@
                 background-color: #ffffff !important;
                 border: 1px solid rgba(255, 255, 255, 0.25) !important;
             "
+            aria-label="Made with Emergent — click to visit Emergent"
         >
-            <div
-                style="display: flex; flex-direction: row; align-items: center"
-            >
+            <div style="display: flex; flex-direction: row; align-items: center">
                 <img
                     style="width: 20px; height: 20px; margin-right: 8px"
                     src="https://avatars.githubusercontent.com/in/1201222?s=120&u=2686cf91179bbafbc7a71bfbc43004cf9ae1acea&v=4"
+                    alt=""
+                    width="20"
+                    height="20"
+                    loading="lazy"
                 />
                 <p
                     style="
@@ -114,6 +205,19 @@
                 </p>
             </div>
         </a>
+
+        <!-- FOUC Prevention: reveal body once React hydrates -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                document.body.classList.add('loaded');
+            });
+            // Fallback in case DOMContentLoaded already fired
+            if (document.readyState !== 'loading') {
+                document.body.classList.add('loaded');
+            }
+        </script>
+
+        <!-- PostHog Analytics -->
         <script>
             !(function (t, e) {
                 var o, n, p, r;
@@ -178,7 +282,7 @@
             })(document, window.posthog || []);
             posthog.init("phc_yJW1VjHGGwmCbbrtczfqqNxgBDbhlhOWcdzcIJEOTFE", {
                 api_host: "https://us.i.posthog.com",
-                person_profiles: "identified_only", // or 'always' to create profiles for anonymous users as well
+                person_profiles: "identified_only",
             });
         </script>
     </body>
